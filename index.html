@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKEA PAGE</title>
+    <link rel="shortcut icon" href="./images/icon-markea.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="markea page prueba">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://markeaagency.com/">
+    <meta property="og:title" content="markea page">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://markeaagency.com/">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="markea page">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://markeaagency.com/">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Markea Agency</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+                <li class="nav__items_button ">
+                    <a id="contactButton" class="cta">Contacto</a>
+                </li>
+                <!---Formulario de contacto--->
+                <div id="contactFormContainer" class="hidden">
+                    <form id="contactForm">
+                        <h2 class="titleform">Contacto</h2>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                        
+                        <label for="correo_electronico">Correo electrónico:</label>
+                        <input type="email" id="correo_electronico" name="correo_electronico" required>
+                        
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <!---------------------------->
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Somos tu mejor opción en marketing digital y desarrollo web a la medida</h1>
+            <p class="hero__paragraph">Permitenos ser tus socios estrategicos para desarrollar marketing digital y desarrollo web a la medida.</p>
+            <a class="cta">Contactanos ahora</a>
+        </section>
+    </header>
+    <!------------------->
+
+    <main>
+        <!--Sección del primer banner-->
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">DESARROLLO WEB Y TIENDAS EN LINEA</h2>
+                    <p class="knowledge__paragraph">Creamos e implementamos nuevas ideas para llevar a tu negocio al siguiente nivel. Creamos, desarrollamos y gestionamos tu tienda en línea.</p>
+                    <section class="hero__container container">
+                    <a class="cta">AGENDA UNA REUNIÓN</a>
+                    </section>
+                </div>
+                <figure class="knowledge__picture">
+                    <img src="./images/web-23.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+        <!--Sección de lo más destacado de nuestro servicio-->
+        <section class="container about">
+            <h2 class="subtitle">Conoce lo mas destacado de nuestros servicios</h2>
+            <p class="about__paragraph">Tenemos todo lo que necesitas para hacer crecer tu empresa, con asesores altamente especializados en los siguientes servicios.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">Servicios de marketing avanzado</h3>
+                    <p class="about__paragrah">Gestión integral de marketing digital, Gestión de Social Media, Posicionamiento en Google (SEO & SEM), Gestión de publicidad digital (PPC).</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">Diseño gráfico y branding</h3>
+                    <p class="about__paragrah">Diseño de marcas, Desarrollo de brandbook, Contenido animado, Diseño gráfico para usos online y offline.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 class="about__title">Servicios web</h3>
+                    <p class="about__paragrah">Creación de tiendas en línea (e-commerce), Diseño y desarrollo de sitios web, Integraciones y desarrollo de funciones de comercio.</p>
+                </article>
+            </div>
+        </section>
+        <!--------------------------------------------------->
+        <!--Sección de Beneficios-->
+        <section class="slider container">
+            <h2 class="subtitle">Beneficios</h2>
+        
+            <div class="slider__wrapper">
+                <div class="slider__element">
+                    <div class="slider__image-wrapper">
+                        <img src="./images/image1.jpg" alt="Beneficio 1" class="slider__image">
+                    </div>
+                    <h3 class="slider__title">Presencia Online</h3>
+                    <p class="slider__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a dui eleifend, eleifend ex nec, blandit nisi.</p>
+                </div>
+        
+                <div class="slider__element">
+                    <div class="slider__image-wrapper">
+                        <img src="./images/image2.jpg" alt="Beneficio 2" class="slider__image">
+                    </div>
+                    <h3 class="slider__title">Ventaja Competitiva</h3>
+                    <p class="slider__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a dui eleifend, eleifend ex nec, blandit nisi.</p>
+                </div>
+        
+                <div class="slider__element">
+                    <div class="slider__image-wrapper">
+                        <img src="./images/image3.jpg" alt="Beneficio 3" class="slider__image">
+                    </div>
+                    <h3 class="slider__title">Aumento de Ventas</h3>
+                    <p class="slider__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a dui eleifend, eleifend ex nec, blandit nisi.</p>
+                </div>
+        
+                <div class="slider__element">
+                    <div class="slider__image-wrapper">
+                        <img src="./images/image4.jpg" alt="Beneficio 4" class="slider__image">
+                    </div>
+                    <h3 class="slider__title">Crecimiento de Mercado</h3>
+                    <p class="slider__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a dui eleifend, eleifend ex nec, blandit nisi.</p>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------------->
+        <!--Logros Sections-->
+        <h2 class="subtitle">Lo que lograremos</h2>
+        <br>
+        <section class="logros">
+            <div class="logros__container container">
+                <img src="./images/leftarrow.svg" class="logros__arrow" id="before">
+
+                <section class="logros__body logros__body--show" data-id="1">
+                    <div class="logros__texts">
+                        <h2 class="subtitle">Desarrollo único adaptado a tus necesidades</h2>
+                        <p class="logros__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
+                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="logros__picture">
+                        <img src="./images/item1.png" class="logros__img">
+                    </figure>
+                </section>
+
+                <section class="logros__body" data-id="2">
+                    <div class="logros__texts">
+                        <h2 class="subtitle">Integración de sistemas de integración de contenido</h2>
+                        <p class="logros__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
+                            voluptatum!</p>
+                    </div>
+
+                    <figure class="logros__picture">
+                        <img src="./images/item2.jpg" class="logros__img">
+                    </figure>
+                </section>
+
+                <section class="logros__body" data-id="3">
+                    <div class="logros__texts">
+                        <h2 class="subtitle">Optimización para motores de búsqueda</h2>
+                        <p class="logros__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="logros__picture">
+                        <img src="./images/item3.png" class="logros__img">
+                    </figure>
+                </section>
+
+                <section class="logros__body" data-id="4">
+                    <div class="logros__texts">
+                        <h2 class="subtitle">Rendimiento Eficiente</h2>
+                        <p class="logros__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="logros__picture">
+                        <img src="./images/item4.jpg" class="logros__img">
+                    </figure>
+                </section>
+
+                <section class="logros__body" data-id="5">
+                    <div class="logros__texts">
+                        <h2 class="subtitle">Vitrina Digital</h2>
+                        <p class="logros__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="logros__picture">
+                        <img src="./images/item5.jpg" class="logros__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="logros__arrow" id="next">
+            </div>
+        </section>
+        <!----------------------------------------->
+
+        <!--------Section Gallery------------->
+        <section class="image-section">
+            <h2 class="section-title">Un proyecto dice más que mil palabras</h2>
+            <br>
+            <div class="image-container">
+                <div class="image-card">
+                    <img src="./images/pagina-web.jpg" alt="Achievement 1">
+                    <div class="image-title">Páginas Web</div>
+                </div>
+                <div class="image-card">
+                    <img src="./images/tienda-online.jpg" alt="Achievement 2">
+                    <div class="image-title">Tiendas Online</div>
+                </div>
+                <div class="image-card">
+                    <img src="./images/iu-ux.jpg" alt="Achievement 3">
+                    <div class="image-title">UI/UX</div>
+                </div>
+                <div class="image-card">
+                    <img src="./images/landing-page.jpg" alt="Achievement 4">
+                    <div class="image-title">Landing Page</div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------------------->
+
+        <!--Seccion Testimonios Clientes-->
+        <section class="testimonials">
+            <h2 class="section-title">Opiniones de nuestros clientes</h2>
+            <br>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <img src="./images/face4.jpg" alt="Customer 1">
+                    <div class="testimonial-text">
+                        <p>"Great service! I am very satisfied with the results."</p>
+                        <p class="customer-name">- John Doe</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src="./images/face2.jpg" alt="Customer 2">
+                    <div class="testimonial-text">
+                        <p>"Amazing experience! Highly recommend."</p>
+                        <p class="customer-name">- Jane Smith</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src="./images/face3.jpg" alt="Customer 3">
+                    <div class="testimonial-text">
+                        <p>"Exceptional quality and great customer support."</p>
+                        <p class="customer-name">- Mark Wilson</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src="./images/face.jpg" alt="Customer 4">
+                    <div class="testimonial-text">
+                        <p>"Very professional and quick turnaround time."</p>
+                        <p class="customer-name">- Emily Davis</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------------->
+
+        <!--Sección de preguntas frecuentes-->
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
+                doloribus neque perspiciatis sapiente fuga.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué servicios proporcionamos?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuáles son sus costos?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Ofrecen asesorías a empresas?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuales son los costos?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Donde se ubican?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿Estas listo para darle un giro a tu empresa o negocio?</h2>
+                <p class="questions__copy">PermÍtenos ser tu nuevo socio estratégico</p>
+                <a class="cta">Contactanos Ahora</a>
+            </section>
+        </section>
+        <!----------------------------------->
+
+    </main>
+    
+    <!--Footer-->
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">MARKEA AGENCY</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Desarrollo web</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Faqs</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Términos y Condiciones</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Aviso de Privacidad</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Mónica Roque</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/formulario.js"></script>
+</body>
+
+</html>
